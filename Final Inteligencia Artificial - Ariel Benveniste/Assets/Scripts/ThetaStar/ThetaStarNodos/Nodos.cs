@@ -17,7 +17,6 @@ public class Nodos : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
             GameManager.instance.SetGoal(Team.Red, this);
-
         if (Input.GetMouseButtonDown(1))
             GameManager.instance.SetGoal(Team.Blue, this);
     }
